@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<center>
+<form>
+    <table>
+        <tr>
+            <th colspan="2">New User Registration</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="NewUserName1" placeholder="First Name">
+            </td>
+            <td>
+                <input type="text" id="NewUserName2" placeholder ="Surname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="NewUserPassword1" placeholder="Enter Password">
+            </td>
+            <td>
+                <input type="text" id="NewUserPassword2" placeholder ="Confirm Password">
+            </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Are you a current UK resident?</label>
+            </td> 
+            <td align="left">
+            <label>Yes:</label>
+            <input type="radio" value="Yes" name="UkBased">
+            <label>No:</label>
+            <input type="radio" value="No" name="UkBased">
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <label>Date of Birth:</label>
+            </td>
+            <td>
+                <input type="date" id="BirthDate">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Select Preferred Training Location:</label>
+            </td>
+            <td>
+                <select id="CitySelection">
+                    <option value="Birmingham">Birmingham</option>
+                    <option value="Walsall">Walsall</option>
+                    <option value="Wednesbury">Wednesbury</option>
+                    <option value="Oldbury">Oldbury</option>
+                    <option value="Dudley">Dudley</option>
+                    <option value="Leicester">Leicester</option>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">
+                <input type="reset">
+            </td>
+            <td align="right">
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+    
+</form>
+<br/>
+   Or <a href="LoginPage.html" target="F1"> Login</a> if already registered
+</center>
+</body>
+</html>
