@@ -1,0 +1,99 @@
+#Form{
+border-width:1pt;
+width:200pt;
+border-style:groove;
+height:auto;
+font-family: Arial;
+position:absolute;
+left:15%;
+}
+h1{
+    position:relative;
+    padding 10pt 10pt 10pt 10pt;
+    left:40pt;
+    color:black;
+    font-size:large;
+    text-decoration: underline;
+
+}
+
+label{
+    position:relative;
+    left:10pt;
+    height: 10pt;
+}
+input{
+    position:relative;
+    left:10pt;
+    height: 10pt;
+    margin-bottom:0pt;
+    margin-left:0;
+}
+select{
+    position:relative;
+    left:10pt;
+    height: 15pt;
+    margin-bottom:10pt;
+    margin-left:0;
+}
+
+#Hobbies,#Gender{
+    position:relative;
+    border-style:groove;
+    border-width: 1pt;
+    width:180pt;
+    left:10pt;
+    top:0pt;
+    padding-top:5pt;
+    padding-bottom:5pt;
+    margin-top:0pt;
+    margin-bottom:0pt;
+}
+#FnameText,#EmailText,#MobileNum{
+    width:175pt;
+}
+#Country{
+    width:180pt;
+    padding-bottom:0pt;
+    margin-bottom:0pt;
+}
+.SelectableOptions{
+    position:relative;
+    align:center;
+    vertical-align: center;
+    left:5pt;
+    width:200pt;
+    top:0pt;
+    padding-top:0;
+}
+#Male,#Female,#Other{
+
+}
+#Submit{
+    position:relative;
+    height:30pt;
+    width:180pt;
+    margin-bottom:30pt;
+    background-color:blue;
+    color:white;
+    border-radius:5pt;
+    border-style: groove;
+}
+#Submit:hover{
+    background-color:steelblue;
+}
+#Submit:active{
+    background-color:darkblue;
+}
+p{
+    position:relative;
+    color:red;
+    font-size:x-small;
+    font-style:italic;
+    font-weight:bold;
+    font-family:Arial;
+    padding: 0 0 0 0;
+    margin: 0 0 5pt 0;
+    left: 10pt;
+    width:180pt;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="HLT4javascript.js"></script>
+    <link rel="stylesheet" href="Layout.css" type="text/css">
+</head>
+<body>
+<div id="Form">
+<h1>
+    Application Form
+</h1>
+<label>
+    Full Name
+</label>
+<br/>
+<input type="text" id="FnameText" onblur="IsNameValid()" />
+<br/>
+<p id="ValidateName">
+    
+</p>
+<label>
+    Email Address
+</label>
+<br/>
+<input type="text" id="EmailText" onblur="IsEmailValid()" />
+<br/>
+<p id="ValidateEmail">
+    
+</p>
+<label>
+    Mobile Number
+</label>
+<br/>
+<input type ="tel" id="MobileNum" onblur="IsMobileValid()" />
+<br/>
+<P id="ValidateMobile">
+</p>
+<label>
+    Country
+</label>
+<br/>
+
+<select id="Country" name="Country" value="Select" onchange="IsCountryValid()">
+    <option value="UK">Uk</option>
+    <option value="Germany">Germany</option>
+    <option value="France">France</option>
+    <option value="Select Country" hidden="true" selected="true">Select Country</option>
+</select>
+
+<p id="ValidateCountry">
+    
+</p>
+<label>Gender</label><br/>
+<div id="Gender" onchange="IsGenderValid()">
+    <div class="SelectableOptions" ">
+<label for "Male">Male</label>
+<input type="radio" id ="Male" name="gender" value="male"onclick="IsGenderValid()">
+<label for "Female">Female</label>
+<input type="radio" id ="Female" name="gender" value="female"onclick="IsGenderValid()">
+<label for "Other">Other</label>
+<input type="radio" id ="Other" name="gender" value="Other"onclick="IsGenderValid()">
+</div>
+</div>
+
+<p id="ValidateGender">
+    
+</p>
+<label>Hobbies <b style="font-size:x-small">(optional)</b></label><br/>
+<div id="Hobbies">
+    <div class="SelectableOptions">
+        <label for "Sports">Sports</label>
+        <input type="checkbox" id="Sports" name="Sports" value="Sports">
+        <label for "Movies"> Movies</label>
+        <input type="checkbox" id="Movies" name="Movies" value="Movies">
+        <label for "Music"> Music</label>
+        <input type="checkbox" id="Music" name="Music" value="Music">
+
+    </div>
+</div>
+<p id="ValidateHobbies"></p>
+
+<br/>
+
+<input type="submit" id="Submit" onclick="IsAllValid()">
+</div>
+</body>
+</html>
