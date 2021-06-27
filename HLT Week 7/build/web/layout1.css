@@ -1,0 +1,31 @@
+table
+{
+    border:1pt solid black;
+    text-align:center;
+    width: 30% ;
+    height:100pt;
+}
+
+td
+{
+    padding: 25px;
+}
+
+.mybutton
+{
+    width:100pt;
+    background-color:lightgreen;
+    height:30pt;
+    border-radius: 5px;
+}
+.mybutton:hover
+{
+    background-color:greenyellow;}
+
+.errortext
+{
+    color:crimson;
+    font-weight:bold;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
