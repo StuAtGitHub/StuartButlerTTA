@@ -1,0 +1,51 @@
+h1{
+    color: darkcyan;
+    padding: 0 0 0 0;
+    margin: 0 0 10pt 0pt;
+}
+hr{
+    margin-top:10pt;
+}
+body{
+    background-color: lightcyan;
+}
+input{
+    margin-top:10pt;
+}
+a,input[type=submit]{
+    border-style:solid;
+    border-width:1pt;
+    border-radius:5pt;
+    text-decoration:none;
+    padding: 5pt 5pt 5pt 5pt;
+    margin-bottom:10pt;
+    background-color:lightcyan;
+}
+a:hover,input[type=submit]:hover{
+    background-color:cyan;
+}
+table{
+    border-style: none;
+   
+    border-radius:10pt;
+    }
+    th{
+        background-color:darkcyan;
+        color:white;
+        align-content:center;
+        border-radius:10pt
+    }
+    td{
+        width:75pt;
+        text-align:center;
+        border-radius:10pt;
+        background-color:lightcyan;
+       
+    }
+    label{
+        width:100pt;
+        display:inline-block;
+        margin-bottom:5pt;
+        text-align:right;
+        padding-bottom:0pt;
+    }
