@@ -1,0 +1,30 @@
+Here we have the first screen of our Library system that the users will see, the login page that lets us enter the system either as an admin or a librarian.
+
+I will log in as a librarian in order to demonstrate the library management features.
+
+I enter a librarian name and password (Lib1 Lib1) and choose Librarian and log in.
+
+This brings us to our main library management screen where we have several options related to library management
+
+If we select view books we can see the current list of books in our library, in this case just 9 at the moment
+
+We can also view our members and a recent photo so we can check ID or put a face to a name as it were.
+
+We can as librarian add a book to the system by clicking on add book and entering the information as follows
+
+BookID - usually this would be a long printed number on the book but for simplicity i am using simple integers
+
+a title, I am going to use the Great Gatsby by F Scott Fitzgerald 
+
+we can see that has been added to our library - we can also remove a book it - demonstrate here then add it back in
+
+now if we go to our members section we can see the list of members so we will pick one for example 5, obviously having checked he matches the photo
+
+we can randomly pick a book for example Book ? which is currently showing as having ? copies available 
+
+we then go to issue book and enter book 4 for member 3 and enter and we can see this has been added to the list of currently issued books here
+
+If we look on the book screen we can see this shows 1 copy of the book has been issued and we thus have 1 less copy in the library to issue.
+
+similarly when the user wants to return a book they bring it back, the librarian enters the book id and member id and we can see this removes it from our currently issued book list and if we go back to our view books list we can see we now have the correct amount of books in and out.
+
